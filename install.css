@@ -1,0 +1,135 @@
+﻿body {
+	font-family:Tahoma, Arial, Serif; 
+	font-size:14px;
+}
+
+h1 {
+	font-size:1.4em; 
+}
+h2 {
+	font-size: 1.2em;
+	margin-top: 2em;
+}
+form {
+	background: #eee;
+	padding-top:10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	width: 90%;
+	margin: 20px auto;
+}
+form fieldset {
+	border:none;
+	margin-bottom: 20px;
+}
+form legend {
+	background: #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	width: 100%;
+	font-size:16px;
+	font-weight:bold;
+	color:#ccc;
+	text-align:center;
+	padding:2px;
+}
+form label {
+	font-size:1em;
+	display:block;
+	width:150px;
+	float:left;
+}
+
+form input {
+	width:300px;
+	background:#f5f5f5;
+	border:none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	padding: 2px 5px;
+	margin: 2px 0;
+}
+form input:focus {
+	background:#fff;
+}
+form input:invalid {
+	box-shadow: 0 0 2px 1px red;
+}
+form p.centre {
+	text-align:center;
+	margin-bottom:0;
+}
+form p.centre img {
+	margin: 10px;
+}
+form input#retour, form input#submit {
+	border:none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	padding: 2px 5px;
+	display:block;
+	width:150px;
+	height: 2em;
+	margin: 5px auto;
+	background: #aaa;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+form input#submit {
+	background: #888;
+}
+p.ok, p.nok,p.alert,p.info {
+	margin-left: 10px;
+	padding-left: 22px;
+	height:16px;
+	background:url('install.png') 0 0 no-repeat;
+	font-weight:bold;
+}
+p.ok {
+	color:green;
+}
+p.nok {
+	color:red;
+	background-position:0 -16px;
+}
+p.alert {
+	color:orange;
+	background-position:0 -32px;
+}
+p.info {
+	color:blue;
+	background-position:0 -48px;
+}
+
+::-webkit-input-placeholder { color:#bbb; }
+::-moz-placeholder { color:#bbb; }
+:-ms-input-placeholder { color:#bbb; }
+input:-moz-placeholder { color:#bbb; }
+
+p.fini {
+	text-align: center;
+	font-size:0.8em;
+	color:#555;
+}
+p.fini a {
+	text-decoration:none;
+	color:#555;
+	font-weight:bold;
+}
+	
+.info_form {
+	font-size: 0.8em;
+	color: gray;
+	font-weight: lighter;
+	margin-left: 30px;
+	font-style: italic;
+}
